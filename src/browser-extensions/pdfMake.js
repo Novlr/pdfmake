@@ -5,7 +5,7 @@
 
 // Ensure the browser provides the level of support needed
 if ( ! Object.keys ) {
-	return;
+	throw new Error('Browser unsupported.');
 }
 
 var PdfPrinter = require('../printer');
