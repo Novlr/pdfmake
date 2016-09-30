@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "dependencies": {
-    "pdfkit": "novlr/pdfkit#0.8.0",
+    "pdfkit": "novlr/pdfkit#v0.8.0",
     "lodash": "^3.1.0",
     "lodash-node": "^3.1.0"
   },
